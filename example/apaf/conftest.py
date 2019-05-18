@@ -9,6 +9,4 @@ def pytest_generate_tests(metafunc):
 
         with open(fileName) as f:
             content = f.readlines()
-
-        content = [x.strip().split() for x in content]
-        metafunc.parametrize("a, b, expected", content)
+        metafunc.parametrize("a, b, expected", [x.strip().split() for x in content])
