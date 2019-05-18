@@ -2,7 +2,8 @@ Mark test as skip, pass, fail, etc..
 
 ## Run
 
-	
+	py.test -ra -v
+	py.test -ra -v --junitxml results.xml
 
 ## Files
 
@@ -55,11 +56,11 @@ def test_div():
 
 ## Output
 
-	PS C:\Users\Admin\Documents\GitHub\reflector\test> pytest -v
+	PS C:\Users\Admin\Documents\GitHub\pytestcs\example\mark> py.test -ra -v
 	============================================================================================================================================ test session starts =============================================================================================================================================
 	platform win32 -- Python 3.7.2, pytest-4.5.0, py-1.8.0, pluggy-0.11.0 -- c:\users\admin\appdata\local\programs\python\python37-32\python.exe
 	cachedir: .pytest_cache
-	rootdir: C:\Users\Admin\Documents\GitHub\reflector\test, inifile: pytest.ini
+	rootdir: C:\Users\Admin\Documents\GitHub\pytestcs\example\mark
 	collected 4 items                                                                                                                                                                                                                                                                                             
 
 	test_useless.py::test_multilpy PASSED                                                                                                                                                                                                                                                                   [ 25%]
@@ -69,8 +70,11 @@ def test_div():
 
 	============================================================================================================================================== warnings summary ==============================================================================================================================================
 	c:\users\admin\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\mark\structures.py:324
-	  c:\users\admin\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\mark\structures.py:324: PytestUnknownMarkWarning: Unknown pytest.mark.xpass - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/latest/mark.html
+	c:\users\admin\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\mark\structures.py:324: PytestUnknownMarkWarning: Unknown pytest.mark.xpass - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/latest/mark.html
 		PytestUnknownMarkWarning,
 
 	-- Docs: https://docs.pytest.org/en/latest/warnings.html
-	========================================================================================================================= 2 passed, 1 skipped, 1 xpassed, 1 warnings in 0.04 seconds =========================================================================================================================
+	========================================================================================================================================== short test summary info ===========================================================================================================================================
+	SKIPPED [1] test_useless.py:8: unconditional skip
+	XPASS test_useless.py::test_div always xfail
+	========================================================================================================================= 2 passed, 1 skipped, 1 xpassed, 1 warnings in 0.06 seconds =========================================================================================================================
