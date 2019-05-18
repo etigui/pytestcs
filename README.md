@@ -15,7 +15,7 @@ In these exemple I will mostly use 3 file :
 
 
 **Example:**
-1. [Mark test as skip, pass, fail, etc..](example\mark.md)
+1. [Mark test as skip, pass, fail, etc..](example/mark.md)
 2. [Add particular arguments]()
 3. [Add particular arguments from file]()
 
