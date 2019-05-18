@@ -1,4 +1,4 @@
-Add multimple value from file to test function
+Add multiple value from file to test function
 
 ## Run
 

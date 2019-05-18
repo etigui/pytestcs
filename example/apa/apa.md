@@ -1,4 +1,4 @@
-Add multimple value to test function
+Add multiple value to test function
 
 
 ## Run
