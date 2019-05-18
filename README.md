@@ -12,6 +12,7 @@ In these exemple I will mostly use 3 file :
 - `useless.py` which is the code you want to test
 - `test_useless.py` which is the test file you will run
 - `conftest.py` which contain directory-specific hook implementations
+- `test.txt` which contain multimple value to test
 
 
 **Example:**
