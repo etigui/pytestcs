@@ -9,12 +9,24 @@ Add particular arguments from file
 
 ```python
 # file: useless.py
+
 def add(a,b):
 	return a + b
 ```
 
 ```python
 # file: test_useless.py
+
+import pytest
+import useless
+
+def test_add(a, b, expected):
+    assert useless.add(int(a), int(b)) == int(expected)
+```
+
+```python
+# file: conftest.py
+
 import pytest
 
 def pytest_addoption(parser):
@@ -31,8 +43,9 @@ def pytest_generate_tests(metafunc):
         metafunc.parametrize("a, b, expected", content)
 ```
 
-```
+```python
 # file: test.txt
+
 1 1 2
 2 2 4
 3 3 6
