@@ -1,4 +1,4 @@
-Mark test as skip, pass, fail, etc..
+Mark test function as skip, pass, fail, etc..
 
 ## Run
 

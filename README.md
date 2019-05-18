@@ -15,8 +15,9 @@ In these exemple I will mostly use 3 file :
 
 
 **Example:**
-1. [Mark test as skip, pass, fail, etc..](example/mark/mark.md)
-2. [Add particular arguments](example/apa/apa.md)
-3. [Add particular arguments from file](example/apaf/apaf.md)
+1. [Mark test function as skip, pass, fail, etc..](example/mark/mark.md)
+2. [Add multimple value to test function](example/apa/apa.md)
+3. [Add multimple value from file to test function](example/apaf/apaf.md)
+4. [Pass arguments value to test function](example/pav/pav.md)
 
 
