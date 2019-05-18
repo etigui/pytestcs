@@ -13,7 +13,9 @@ In these exemple I will mostly use 3 file :
 - `test_useless.py` which is the test file you will run
 - `conftest.py` which contain directory-specific hook implementations
 
-### Marks test as skip, pass, fail, etc..
+
+Exemple:
+- Marks test as skip, pass, fail, etc..
 
 ```python
 # file: useless.py
