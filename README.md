@@ -15,7 +15,10 @@ In these exemple I will mostly use 3 file :
 
 
 Exemple:
-- Marks test as skip, pass, fail, etc..
+1. Mark test as skip, pass, fail, etc..
+2. Add particular arguments
+3. Add particular arguments from file
+
 
 ```python
 # file: useless.py
