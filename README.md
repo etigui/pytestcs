@@ -15,8 +15,8 @@ In these exemple I will mostly use 3 file :
 
 
 **Example:**
-1. [Mark test as skip, pass, fail, etc..](example/mark.md)
-2. [Add particular arguments]()
-3. [Add particular arguments from file]()
+1. [Mark test as skip, pass, fail, etc..](example/mark/mark.md)
+2. [Add particular arguments](example/apa/apa.md)
+3. [Add particular arguments from file](example/apaf/apaf.md)
 
 
