@@ -6,7 +6,7 @@ Pytest is a framework that makes building simple and scalable tests easy. Tests 
 
 	pip install pytest
 	
-## Exemple
+## Example
 
 In these exemple I will mostly use 3 file :
 - `useless.py` which is the code you want to test
@@ -14,32 +14,9 @@ In these exemple I will mostly use 3 file :
 - `conftest.py` which contain directory-specific hook implementations
 
 
-**Exemple:**
-1. [Mark test as skip, pass, fail, etc..]()
+**Example:**
+1. [Mark test as skip, pass, fail, etc..](example\mark.md)
 2. [Add particular arguments]()
 3. [Add particular arguments from file]()
 
 
-```python
-# file: useless.py
-
-def multilpy(a,b):
-	return a * b
-	
-def add(a,b):
-	return a + b
-	
-def sub(a,b):
-	return a - b
-	
-def div(a,b):
-	return a / b
-
-def mod(a, b):
-	return a % b
-
-def eq(a, b):
-	if a == b:
-		return True
-	return False
-```
