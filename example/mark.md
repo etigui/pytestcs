@@ -2,7 +2,7 @@ Mark test as skip, pass, fail, etc..
 
 ## Run
 
-
+	
 
 ## Files
 
@@ -37,7 +37,6 @@ def eq(a, b):
 import useless
 import pytest
 
-@pytest.fixture
 def test_multilpy():
 	assert useless.multilpy(3, 2) == 6
 
@@ -55,3 +54,23 @@ def test_div():
 ```
 
 ## Output
+
+	PS C:\Users\Admin\Documents\GitHub\reflector\test> pytest -v
+	============================================================================================================================================ test session starts =============================================================================================================================================
+	platform win32 -- Python 3.7.2, pytest-4.5.0, py-1.8.0, pluggy-0.11.0 -- c:\users\admin\appdata\local\programs\python\python37-32\python.exe
+	cachedir: .pytest_cache
+	rootdir: C:\Users\Admin\Documents\GitHub\reflector\test, inifile: pytest.ini
+	collected 4 items                                                                                                                                                                                                                                                                                             
+
+	test_useless.py::test_multilpy PASSED                                                                                                                                                                                                                                                                   [ 25%]
+	test_useless.py::test_add SKIPPED                                                                                                                                                                                                                                                                       [ 50%]
+	test_useless.py::test_sub PASSED                                                                                                                                                                                                                                                                        [ 75%]
+	test_useless.py::test_div XPASS                                                                                                                                                                                                                                                                         [100%]
+
+	============================================================================================================================================== warnings summary ==============================================================================================================================================
+	c:\users\admin\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\mark\structures.py:324
+	  c:\users\admin\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\mark\structures.py:324: PytestUnknownMarkWarning: Unknown pytest.mark.xpass - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/latest/mark.html
+		PytestUnknownMarkWarning,
+
+	-- Docs: https://docs.pytest.org/en/latest/warnings.html
+	========================================================================================================================= 2 passed, 1 skipped, 1 xpassed, 1 warnings in 0.04 seconds =========================================================================================================================
