@@ -30,7 +30,7 @@ def test_multiply(const):
 import pytest
 
 def pytest_addoption(parser):
-    parser.addoption("--const", action="store", default="0", help="Add const result as arg")
+    parser.addoption("--const", action="store", default="0", help="Add const as arg")
 
 @pytest.fixture
 def const(request):
