@@ -70,3 +70,7 @@ def pytest_generate_tests(metafunc):
     test_useless.py::test_add[6-6-12] PASSED                                                                                                                                                                                                                                                                [100%]
 
     ========================================================================================================================================== 6 passed in 0.08 seconds ==========================================================================================================================================
+
+## Ref
+
+-[Parameterize tests using excel in Pytest](https://stackoverflow.com/questions/51950921/parameterize-tests-using-excel-in-pytest)

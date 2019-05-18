@@ -20,4 +20,8 @@ In these exemple I will mostly use 3 file :
 3. [Add multimple value from file to test function](example/apaf/apaf.md)
 4. [Pass arguments value to test function](example/pav/pav.md)
 
+## Ref
+
+- [Pytest doc](https://docs.pytest.org/en/latest/index.html)
+
 

@@ -50,3 +50,6 @@ def const(request):
     test_useless.py::test_multiply PASSED                                                                                                                                                                                                                                                                   [100%]
 
     ========================================================================================================================================== 1 passed in 0.06 seconds ==========================================================================================================================================
+
+## Ref
+- [Basic patterns and examples](https://docs.pytest.org/en/latest/example/simple.html#pass-different-values-to-a-test-function-depending-on-command-line-options)
