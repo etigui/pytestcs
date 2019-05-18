@@ -1,9 +1,8 @@
 import useless
 import pytest
 
-
 def test_multilpy():
-	assert useless.multilpy(3, 2) == 6, "pass message"
+	assert useless.multilpy(3, 2) == 6, "Multiply 2 number"
 
 @pytest.mark.skip()
 def test_add():
