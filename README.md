@@ -8,7 +8,7 @@ Pytest is a framework that makes building simple and scalable tests easy. Tests 
 	
 ## Example
 
-In these exemple I will mostly use 3 file :
+In these exemple we will mostly use 4 file :
 - `useless.py` which is the code you want to test
 - `test_useless.py` which is the test file you will run
 - `conftest.py` which contain directory-specific hook implementations
